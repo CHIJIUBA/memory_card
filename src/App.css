@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.score-line {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    padding: 25px 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card-body img {
+    border-radius: 10px;
+}
+
+.card-footer p {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
