@@ -1,12 +1,14 @@
 import { useState } from 'react'
 import './App.css'
-import Body from './body'
-import Bend from './Bend';
+import { Link } from 'react-router-dom';
 
 function App() {
 
     return (
-        <Bend />
+       <>
+            <h1 className={"hello"}>This is the landing page</h1>
+            <Link to="profile">go to profile</Link>
+       </>
     );
 }
 
