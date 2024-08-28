@@ -5,7 +5,7 @@ const ErrorPage = () => {
     <div>
       <h1 className="hello">Oh no, this route doesn't exist!</h1>
       <Link to="/">
-        You can go back to the home page by clicking here, though!
+        You can go back to the home page!
       </Link>
     </div>
   );
