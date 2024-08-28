@@ -1,6 +1,7 @@
 import App from './App.jsx'
 import Bend from './Bend.jsx'
 import ErrorPage from './ErrorPage.jsx'
+import Fetch from './Fetch.jsx'
 
 
 const routes = [
@@ -11,8 +12,12 @@ const routes = [
     },
 
     {
-    path: "profile",
-    element: <Bend />
+        path: "profile",
+        element: <Bend />
+    },
+    {
+        path: "fetch",
+        element: <Fetch />
     }
 ]
 
